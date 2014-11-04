@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Autocomplete - Default functionality</title>
+  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.0/themes/smoothness/jquery-ui.css">
+  <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="//code.jquery.com/ui/1.11.0/jquery-ui.js"></script>
+  <link rel="stylesheet" href="/resources/demos/style.css">
+ <script>
+$(document).ready(function(){
+
+$("#tags").autocomplete({
+    source: function (request, response) {
+        
+        // faking the presence of the YAHOO library bc the callback will only work with
+        // "callback=YAHOO.Finance.SymbolSuggest.ssCallback"
+        var YAHOO = window.YAHOO = {Finance: {SymbolSuggest: {}}};
+        
+        YAHOO.Finance.SymbolSuggest.ssCallback = function (data) {
+            var mapped = $.map(data.ResultSet.Result, function (e, i) {
+                return {
+                    label: e.symbol + ' (' + e.name + ')',
+                    value: e.symbol
+                };
+            });
+            response(mapped);
+        };
+        
+        var url = [
+            "http://d.yimg.com/autoc.finance.yahoo.com/autoc?",
+            "query=" + request.term,
+            "&callback=YAHOO.Finance.SymbolSuggest.ssCallback"];
+
+        $.getScript(url.join(""));
+    },
+    minLength: 2
+});
+
+
+}); // end ready function
+</script>
+</head>
+<body>
+ 
+<div class="ui-widget">
+  <label for="tags">Tags: </label>
+  <input id="tags">
+  <input type="submit">
+</div>
+ 
+ 
+</body>
+</html>

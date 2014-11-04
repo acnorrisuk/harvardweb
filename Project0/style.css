@@ -1,0 +1,275 @@
+p {
+	color: white;
+}
+
+#accordion {
+	width: 80%;
+	margin: auto;
+	margin-top: 50px;
+	margin-left: 250px;
+}
+
+#accordion td
+{
+	font-size: 14px;
+	width: 100px;
+}
+
+#accordion td.description{
+	width: 350px;
+}
+
+#accordion td.name{
+	width: 200px;
+}
+
+.ui-widget-content
+{
+	background: #F6F6F6;
+}
+
+
+#image
+{
+	margin: 51px auto 0 auto;
+	
+}
+#image img
+{
+	width: 1330px;
+	margin-left: 200px;
+	height: 265px;
+}
+.menu_holder
+{
+	border-top: 1px solid black;
+	width: 1330px;
+	margin-left: 200px;
+	height: 500px;
+	background: #333;
+
+}
+
+a.navbar-brand
+{
+	padding-right: 780px;
+}
+
+.ui-accordion-icons
+{
+	color: #eb8f00; /*onclick*/
+}
+.ui-corner-all  /*default*/
+{
+	color: #999;
+}
+
+
+.ui-state-default, .ui-widget-content .ui-state-default, .ui-widget-header .ui-state-default
+{
+ background: none;
+ border: none;
+}
+
+.ui-widget-content
+{
+	background-color: #333;
+	background-image: none;
+	border: none;
+}
+
+td.description, td.name, td.price
+{
+	color: white;
+	font-size: 14px;
+	
+}
+
+.add_button
+{
+	background-color: #333;
+	border: none;
+	outline: none;
+	padding: 5px 2px;
+}
+.add_button a {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 0px 1px 3px #666666;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 14px;
+  background: #eb8f00;
+  padding: 2px 17px 2px 17px;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;  
+}
+.add_button a:hover {
+  background: #fdaf00;
+  text-decoration: none;
+}
+
+
+#menu_title
+{   
+	padding-left: 285px;
+	margin-bottom: -35px;
+	font-size: 18px;
+	font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
+	color: #999;
+}
+
+#footer {
+	background-color: #222;
+	width: 1330px;
+	height: 50px;
+	margin-left: 200px;
+	text-align: center;
+}
+
+#footer p
+{
+	padding-top: 15px;
+	color: #999;
+	font-size: 12px;
+	font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
+}
+
+.navbar-inverse
+{
+	margin-left: 200px;
+	margin-right: 215.5px;
+}
+
+.menu_holder p
+{
+	font-size: 14px;
+	font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
+}
+
+.add_button2
+{
+	background-color: #333;
+	border: none;
+	outline: none;
+	padding: 10px 2px;
+}
+.add_button2 a {
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  text-shadow: 0px 1px 3px #666666;
+  -webkit-box-shadow: 0px 1px 3px #666666;
+  -moz-box-shadow: 0px 1px 3px #666666;
+  box-shadow: 0px 1px 3px #666666;
+  font-family: Courier New;
+  color: #ffffff;
+  font-size: 14px;
+  background: #eb8f00;
+  padding: 2px 17px 2px 17px;
+  text-decoration: none;
+  font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;  
+}
+.add_button2 a:hover {
+  background: #fdaf00;
+  text-decoration: none;
+}
+
+
+#added_text
+{
+	height: 80px;
+	text-align: center;
+	margin-top: 100px;
+}
+
+#cart_holder
+{
+
+	height: 300px;
+	text-align: center;
+}
+
+
+
+#cart th {   font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif; color:#fff; background:#eb8f00; text-align:left; padding: 5px 20px 5px 20px; text-align: center; border-bottom: 1px solid black; }
+#cart td {   font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif; border-bottom:1px solid black; background:#ddd; padding:5px 20px 5px 20px; text-align:center; color:222;}
+#cart td#total{font-weight: bold;}
+
+
+#clear_cart {
+  -webkit-border-radius: 18;
+  -moz-border-radius: 18;
+  border-radius: 18px;
+  border: hidden;
+  outline: none;
+  font-size: 14px;
+  background: #ddd;
+ 
+}
+
+#clear_cart
+{
+  font-family: 'Trebuchet MS', Tahoma, Verdana, Arial, sans-serif;
+   color: #red;
+}
+
+form
+{
+	margin-left: 480px;
+}
+
+form input
+{
+margin-right: 490px;
+}
+/*
+.navbar navbar-inverse navbar-fixed-top
+{
+margin-right: 200px;
+margin-left: 200px;
+}
+*/
+
+#checkout_holder
+{
+height: 200px;
+text-align: center;
+padding-top: 100px;
+
+}
+
+#no_items
+{
+	border: 1px solid red;
+}
+
+.ui-state-hover
+{
+	color: white;
+}
+
+table 
+{
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  overflow:hidden;
+  border-radius: 10px;
+}
+/*
+#cart
+{
+	margin-left: 0px;
+}
+*/
+
+#logout_holder
+{
+text-align: center;
+margin-top: 100px;
+}
+

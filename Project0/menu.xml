@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<menu>
+	<category>
+		<pizza>
+			<name>Tomato &amp; Cheese</name>
+			<small>5.50</small>
+			<large>9.75</large>
+		</pizza>
+		<pizza>
+			<name>Pepperoni</name>
+			<small>6.85</small>		
+			<large>10.85</large>
+		</pizza>
+		<pizza>
+			<name>Hawaiian</name>
+			<small>7.95</small>		
+			<large>11.80</large>
+		</pizza>
+		<pizza>
+			<name>Meatball</name>
+			<small>6.85</small>		
+			<large>10.85</large>
+		</pizza>
+		<pizza>
+			<name>Grilled Chicken</name>
+			<small>7.95</small>		
+			<large>11.80</large>
+		</pizza>
+		<pizza>
+			<name>Fresh Spinach</name>
+			<small>6.85</small>		
+			<large>10.85</large>
+		</pizza>		
+	</category>
+	<category>
+		<wrap>
+			<name>Turkey Club</name>
+			<description>Turkey, Cheese, Lettuce, Tomato, Onion, Mayo</description>
+			<price>4.95</price>
+		</wrap>
+		<wrap>
+			<name>Chicken Cobb</name>
+			<description>Grilled Chicken, Bacon, Cheese, Lettuce, Tomato, Onion, Honey Mustard</description>
+			<price>4.95</price>
+		</wrap>
+		<wrap>
+			<name>Greek Supreme</name>
+			<description>Feta Cheese, Black Olives, Lettuce, Tomato, Onion, Greek Dressing</description>
+			<price>4.95</price>
+		</wrap>
+		<wrap>
+			<name>Crispy Chicken</name>
+			<description>Chicken Finger, Lettuce, Tomato, Onion, Honey Mustard</description>
+			<price>4.95</price>
+		</wrap>		
+		<wrap>
+			<name>Phil's Fajita Wrap</name>
+			<description>Chicken &amp; Guacamole</description>
+			<price>5.95</price>
+		</wrap>		
+	</category>
+	<category>
+		<spaghetti>
+			<name>With Sauce</name>
+			<price>5.40</price>
+		</spaghetti>
+		<spaghetti>
+			<name>With Sausage</name>
+			<price>6.45</price>
+		</spaghetti>
+		<spaghetti>
+			<name>With Meatball</name>
+			<price>6.45</price>
+		</spaghetti>
+		<spaghetti>
+			<name>With Chicken Cutlet</name>
+			<price>6.45</price>
+		</spaghetti>
+		<spaghetti>
+			<name>With Mushroom</name>
+			<price>6.45</price>
+		</spaghetti>
+	</category>
+	<category>
+		<salad>
+			<name>Garden</name>
+			<small>3.50</small>
+			<large>4.50</large>
+		</salad>
+		<salad>
+			<name>Greek</name>
+			<small>4.50</small>
+			<large>5.50</large>
+		</salad>
+		<salad>
+			<name>Antipasto</name>
+			<small>4.50</small>
+			<large>5.50</large>
+		</salad>
+		<salad>
+			<name>Tuna</name>
+			<small>4.50</small>
+			<large>5.50</large>
+		</salad>
+		<salad>
+			<name>Grilled Chicken</name>
+			<small>4.95</small>
+			<large>5.95</large>
+		</salad>
+	</category>
+	<category>
+		<grinder>
+			<name>Meatless</name>
+			<small>4.50</small>
+			<large>4.95</large>
+		</grinder>
+		<grinder>
+			<name>Sausage</name>
+			<small>4.75</small>
+			<large>5.75</large>
+		</grinder>
+		<grinder>
+			<name>American</name>
+			<small>4.75</small>
+			<large>5.75</large>
+		</grinder>
+		<grinder>
+			<name>Hot Pastrami</name>
+			<small>4.95</small>
+			<large>5.95</large>
+		</grinder>
+		<grinder>
+			<name>Ham</name>
+			<small>4.75</small>
+			<large>5.75</large>
+		</grinder>
+			<grinder>
+			<name>Grilled Chicken Delight</name>
+			<small>5.50</small>
+			<large>6.50</large>
+		</grinder>
+	</category>
+	<category>
+		<calzone>
+			<name>Vegetarian</name>
+			<price>7.35</price>
+		</calzone>
+		<calzone>
+			<name>Ham &amp; Cheese</name>
+			<price>7.35</price>
+		</calzone>
+		<calzone>
+			<name>Chicken Cutlet</name>
+			<price>7.35</price>
+		</calzone>
+		<calzone>
+			<name>Meatball</name>
+			<price>7.35</price>
+		</calzone>
+		<calzone>
+			<name>Grecian</name>
+			<price>7.35</price>
+		</calzone>
+	</category>
+</menu>
